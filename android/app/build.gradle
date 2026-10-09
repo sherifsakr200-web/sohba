@@ -1,0 +1,17 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+}
+
+android {
+    namespace "com.sohba.social"
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.sohba.social"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+}
