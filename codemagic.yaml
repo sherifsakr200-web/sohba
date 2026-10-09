@@ -4,9 +4,10 @@ workflows:
     max_build_duration: 120
     environment:
       flutter: stable
-      xcode: latest
-      cocoapods: default
     scripts:
+      - name: Clean project
+        script: |
+          flutter clean
       - name: Get Flutter packages
         script: |
           flutter pub get
